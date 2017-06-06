@@ -10,6 +10,7 @@ import Acidade from '@/components/pages/Acidade'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -40,6 +41,10 @@ export default new Router({
       path: '/Acidade',
       name: 'Acidade',
       component: Acidade
+    },
+    {
+      path: '*',
+      component: Home
     }
   ]
 })
