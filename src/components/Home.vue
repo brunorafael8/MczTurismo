@@ -5,7 +5,7 @@
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
         <div class="image-card">
           <div class="image-card__picture">
-            <img src="../assets/header2.jpg" alt="">
+            <img src="../assets/praia.jpg" alt="">
           </div>
           
           <div class="image-card__comment mdl-card__actions">
@@ -20,7 +20,7 @@
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
         <div class="image-card">
           <div class="image-card__picture">
-            <img src="../assets/header2.jpg" alt="">
+            <img src="../assets/parques.jpg" alt="">
           </div>
           
           <div class="image-card__comment mdl-card__actions">
@@ -35,7 +35,7 @@
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
         <div class="image-card">
           <div class="image-card__picture">
-            <img src="../assets/header2.jpg" alt="">
+            <img src="../assets/culinaria.jpg" alt="">
           </div>
           
           <div class="image-card__comment mdl-card__actions">

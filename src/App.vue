@@ -58,7 +58,7 @@ export default {
   justify-content: center;
   background-color: #43A047;
   span{
-    padding-top: 20px;
+    margin: 0 auto;
     a{
       text-decoration: none;
     }
