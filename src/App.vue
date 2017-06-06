@@ -24,7 +24,9 @@
         </nav>
       </div>
     <main class="mdl-layout__content">
-        <router-view></router-view>
+        <transition name="pagina">
+          <router-view></router-view>
+        </transition>
         <footer class="mdl-mini-footer"> 
             <span>Feito por <a href="https://www.facebook.com/brunorafaell8">Bruno Rafael</a></span>
         </footer>
@@ -47,8 +49,6 @@ export default {
   .mdl-navigation{
     .mdl-navigation__link{
       font-size: 20px;
-
-      
     }
   }
 }
@@ -68,5 +68,11 @@ export default {
   color: #d1d1d1;
   blur: 100%;
 }
+	.pagina-enter, .pagina-leave-active  {
+    opacity: 0;
+  }
+ 	.pagina-enter-active, .pagina-leave-active {
+    transition: opacity .4s;
+  }
 
 </style>
