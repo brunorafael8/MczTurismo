@@ -4,14 +4,13 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title">MczTurismo</span>
-          <!-- Add spacer, to align navigation to the right -->
+          <router-link to="/" class="mdl-layout-title">MczTurismo</router-link>
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
           <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a class="mdl-navigation__link" href="/">Home</a>
-            <a class="mdl-navigation__link" href="">A cidade</a>
-            <a class="mdl-navigation__link" href="">Informações</a>
+            <router-link class="mdl-navigation__link" to="/">Home</router-link>
+            <router-link class="mdl-navigation__link" to="Acidade" >A cidade</router-link>
+            <router-link class="mdl-navigation__link" to="Informacoes">Informações</router-link>
           </nav>
         </div>
       </header>
@@ -19,9 +18,9 @@
        
         <span class="mdl-layout-title">MczTurismo</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="/">Home</a>
-          <a class="mdl-navigation__link" href="">A cidade</a>
-          <a class="mdl-navigation__link" href="">Informações</a>
+            <router-link class="mdl-navigation__link" to="/">Home</router-link>
+            <router-link class="mdl-navigation__link" to="Acidade" >A cidade</router-link>
+            <router-link class="mdl-navigation__link" to="Informacoes">Informações</router-link>
         </nav>
       </div>
     <main class="mdl-layout__content">
@@ -63,6 +62,11 @@ export default {
       text-decoration: none;
     }
   }
+}
+.mdl-layout-title{
+  text-decoration: none;
+  color: #d1d1d1;
+  blur: 100%;
 }
 
 </style>

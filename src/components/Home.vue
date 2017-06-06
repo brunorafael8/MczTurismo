@@ -1,5 +1,6 @@
 <template>
    <div>
+    <router-link to="Praias">
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--3-col mdl-cell mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
@@ -15,6 +16,8 @@
         </div>
       </div>
     </div>
+    </router-link>
+    <router-link to="Passeio">
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--3-col mdl-cell mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
@@ -25,11 +28,13 @@
           
           <div class="image-card__comment mdl-card__actions">
             <img src="../assets/icons/park.svg" alt="" class="home--icon">
-            <span>Parques</span>
+            <span>Passeios</span>
           </div>
         </div>
       </div>
     </div>
+    </router-link>
+    <router-link to="Culinaria">
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--3-col mdl-cell mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
@@ -45,6 +50,7 @@
         </div>
       </div>
     </div>
+    </router-link>
    </div>
 </template>
 
